@@ -1,3 +1,5 @@
+import { Container } from "./layout/container";
+
 export const App = () => {
-  return <div>Hello world!</div>;
+  return <Container />;
 };
