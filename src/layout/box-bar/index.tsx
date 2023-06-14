@@ -1,3 +1,4 @@
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Checkbox } from "../../components/checkbox";
 import { Sidebar } from "../../components/sidebar";
 import { Slider } from "../../components/slider";
@@ -52,8 +53,14 @@ export const BoxBar = () => {
 
   return (
     <Sidebar>
-      <div className="flex items-center">
+      <div className="flex items-center justify-between">
         <h3>Box Settings</h3>
+        <a
+          href="https://github.com/GilbertoFreitasJunior997/box-shadow"
+          target="_blank"
+        >
+          <GitHubLogoIcon width={20} height={20} />
+        </a>
       </div>
 
       <div className="pt-4 flex flex-col gap-2">
